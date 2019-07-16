@@ -1,0 +1,1120 @@
+html,body{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-right: 10%;
+}
+h2{
+  margin: 0 0 0 0;
+  margin-left: 300px;
+  font-family: Georgia, serif;
+}
+hr{
+  margin: auto;
+  margin-top: 60px;
+}
+.outer-con{
+  width: 80%;
+  margin-right: 10%
+  margin-left:10%;
+}
+#container{
+    position:relative;
+    height: 100%;
+    
+}
+#header{
+  background: #2b2276;
+  line-height: 200%;
+}
+.navigation {
+    background-color: #2b2276;
+    overflow: hidden;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 45px;
+    margin: -11px 15px;
+    left: 14%;
+}
+
+.navigation img {
+    position: relative;
+    margin-left: 50px;
+    float: left;
+    width: 118px;
+    top: 10px;
+    left: 7%;
+}
+.navigation a:hover {
+    color: #009dff;
+}
+
+/*...Add a color to the active/current link...*/
+.navigation a.active {
+  color: #009dff;
+}
+#mybody{
+  background-image: url(home-banner.jpg);
+}
+#mybody .body-para-img{
+  position: relative;
+  width: 250px;
+  height: 400px;
+  top: 5%;
+  left: 20%;
+  float: left;
+}
+
+#mybody .body-txt {
+    position: absolute;
+    top: 25%;
+    font-size: 35px;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: bold;
+    color: white;
+    left: 50%;
+    width: 20%;
+}
+
+#mybody .body-say-red{
+  color: red;
+}
+
+#mybody .body-sub-txt{
+    font-size: 12px;
+    position: relative;
+    top: 175px;
+    left: 63px;
+    color: white;
+    font-weight: bold;
+}
+#mybody .body-a-line{
+  position: relative;
+  width: 200px;
+  top: 190px;
+  left: 63px;
+}
+
+#mybody .body-a-img{
+  top: 190px;
+  left: 63px;
+  width: 30px;
+  height: 30px;
+}
+
+#mybody .body-a-img img{
+  width: 40px;
+}
+
+#mybody .body-a-line span{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 40px;
+  font-size: 12px;
+}
+
+#mybody .body-a-line a{
+  text-decoration: none;
+}
+
+#tableclass{
+  /*margin-left: 0 auto;*/
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+table{
+  width: 80%;
+}
+
+.tablecss{
+  /*position: absolute;*/
+  text-align: center;
+  width: 80%
+}
+.subscribe{
+  height: 144px;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  margin: 0;
+}
+.buyfrmus-subscrb {
+  margin-top:  90%;
+}
+.subscribe .sub-left-span{
+  padding: 30px;
+  padding-bottom: 2px;
+  margin-left: 0px;
+  color: #0b0b6a;
+}
+.td-class{
+    position: relative;
+    left: 200px;
+}
+.subscribe table td{
+  width: 50%;
+}
+.subscribe .sub-left-span2{
+  left:30px;
+  padding-bottom: 2px;
+  position: relative;
+  font-size: 0.7em;
+  color: #7c7cbf;
+}
+.subscribe input{
+    border-radius: 15px;
+    border: 0;
+    height: 30px;
+    width: 400px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.sub-right-div{
+    position: relative;
+    left: 140px;
+}
+.subscribe a {
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; padding: 0px 35px; color: #222222;
+  border-radius: 15px;
+  margin-left: -122px;
+  height: 27px;
+  width: 115px;
+  border: 0;
+}
+
+.subscribe button{
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  border-radius: 15px;
+  margin-left: -122px;
+  height: 27px;
+  width: 115px;
+  border: 0;
+}
+#footer{
+  background: #2b2276;
+  padding: 40px;
+  height: 70px;
+  text-align: center;
+
+}
+#footer span{
+  font-size: 0.7em;
+  font-style: italic;
+  margin-top: 10px;
+  color: white;
+  font-family: Roboto;
+}
+
+#footer span span{
+  color: #3fcdfc;  
+}
+
+
+/*...........................About Us Page.........................*/
+
+#abs-mybody{
+  background-image: url(home-banner.jpg);
+  background-size: cover;
+  background-position: 0px 70%;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 520px;
+  
+}
+.nav{
+  color: white;
+  text-align: center;
+  padding-top: 99px;
+  font-family: Verdana, Arial, Sans-Serif;
+
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+  font-family: Verdana, Arial, Sans-Serif;
+  padding-top: 30px;
+  
+}
+.abs-content{
+  background-image: linear-gradient(to right,#2B2257, #463d93, #2B2257);
+  width: 57%;
+  height: 200px;
+  margin-top: 161px;
+  margin-left: 15%;
+  padding: 5%;
+}
+.abs-img{
+  float: left;
+  position: absolute;
+  left: 58%;
+  top: 48%;
+}
+.abs-img img{
+  width: 75%;
+}
+.abs-cbody{
+  width: 58%;
+  color: white;
+  
+}
+.abs-ptitle{
+  font-family: Verdana, Arial, Sans-Serif;
+}
+hr.abs-line{
+  width: 45px;
+  float: left;
+  margin-top: 5px;
+  border-color: #3cc4bf;
+}
+.abs-pheader{
+  font-weight: bold;
+  margin: 30px 0;
+  font-size: 1.7em;
+  font-family: Verdana, Arial, Sans-Serif;
+
+}
+.abs-pquote{
+  font-family: Verdana, Arial, Sans-Serif;
+  font-size: 0.96em;
+}
+
+
+
+/*..............................Buy From Us Page ...........................*/
+
+
+#bfu-mybody{
+  background-image: url(home-banner.jpg);
+  background-size: cover;
+  background-position: 0px 70%;
+  width: 100%;
+  height: 195px;
+  margin-bottom: 1330px;
+}
+
+
+.bfu-bodyhead {
+  width: 85%;
+  margin: 90px 120px;
+  
+}
+.bfu-bottom{
+  margin-bottom: 85%;
+}
+
+.s-change {
+    height: 48px;
+    margin-left: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.front-text {
+    text-align: center;
+    font-weight: 500;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 33px;
+}
+
+.back-text {
+    text-align: center;
+    font-size: 65px;
+    position: relative;
+    top: -68px;
+    z-index: -1;
+    color: aliceblue;
+}
+.product {
+    float: left;
+    border: 1px solid #b6b6b6;
+    margin: 50px;
+    width: 200px;
+    height: 420px;
+    margin-bottom: 0;
+}
+
+.product img {
+    width: 200px;
+}
+
+.p-price  {
+    margin: 14px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: #727272;
+}
+.p-description{
+    margin: 14px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: #727272;
+}
+.product input {
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: 600;
+    width: 170px;
+    margin: 0 14px 14px 14px;
+}
+.bfu-button input[type=submit]{
+    position: relative;
+    left: 245px;
+    margin-top: 35px;
+}
+
+/*..............................Buy From Us - Pop Up Page...........................*/
+
+
+.popup {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.popup-body {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 37.5%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.popup-body p {
+    padding-left: 15px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: grey;
+}
+
+.popup-image {
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+.popup-data {
+    width: 51%;
+    margin: 20px 0 20px 50%;
+    height: 200px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: orangered;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-quantity {
+    margin-bottom: 15px;
+    color: grey;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+
+.product-quantity input[type=number] {
+    margin: 12px;
+    border: 1px solid #c8c8c8;
+    height: 25px;
+    padding: 4px;
+}
+
+.button-bfupop {
+    float: right;
+    height: 40px;
+    border-radius: 7px;
+    border: 0;
+    margin: 12px;
+    color: white;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.button-bfupop .close-bfu {
+    float: right;
+    width: 80px;
+    background-color: #686e68;
+}
+
+.button-bfupop .add-bfu {
+    float: right;
+    width: 100px;
+    background-color: #1379f7;
+}
+
+
+/* ......................................CART ..............................................*/
+
+.cart-body {
+  margin-bottom:0 ;
+}
+
+.cart {
+  width: 100% !important;
+  margin: 100px auto;
+}
+
+.cart-box {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 0px 16px 14px 10px lightgrey;
+}
+.customer-details {
+    padding: 15px 0px 0px 30px;
+    width: 50%;
+    float: left;
+}
+
+#cust-form input {
+    height: 30px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    width: 221px;
+}
+
+.cust-form-head {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: grey;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+.cust-input {
+    display: block;
+    width: 80% !important;
+}
+
+.cust-input-half input[type=text] {
+  width: 178px !important;
+}
+#cust-lang {
+    margin-right: 100px;
+    border: none;
+}
+
+.cust-zcode {
+    width: 206px !important;
+}
+.cart-box-product {
+    width: 42%;
+    float: left;
+    padding-top: 25px;
+}
+
+.cart-table {
+  display: table;         
+  width: auto;       
+  border-spacing: 5px; 
+  font-family: Verdana, Arial, Sans-Serif;
+
+}
+.cart-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+  margin-top: 20px;
+}
+.cart-col {
+  float: left; 
+  display: table-column;         
+  width: 80px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.cart-table .mov {
+    height: 35px;
+    font-weight: 600;
+}
+.cart-col img {
+    width: 100px;
+}
+
+hr.cart-style {
+  margin: 0px ;
+}
+
+.cart-submit {
+    clear:both;
+    height: 20px;
+    padding: 24px;
+    margin-left: 250px;
+}
+
+.cart-submit input[type=submit] {
+    border-radius: 5px;
+    height: 35px;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 600;
+    border: 0;
+}
+
+
+
+
+/*...................................LOGIN PAGE.............................. */
+
+#lgn-mybody{
+  background-image: url(home-banner.jpg);
+  background-size: cover;
+  background-position: 0px 70%;
+  width: 100%;
+  height: 220px;
+
+}
+
+.lgn-form {
+  width: 32%;
+  margin: 8% auto;
+  padding: 20px; 
+  border-radius: 8px;
+  height: 200px;
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lgn-form input[type=email] {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 15px;
+    width: 90%;
+}
+.lgn-form input[type=password] {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 15px;
+    width: 90%;
+}
+
+.lgn-form input[type=submit] {
+    float: right;
+    height: 42px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 600;
+    margin: 15px 50px;
+}
+.button-design {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+}
+
+
+
+/*........................................CONTACT PAGE.........................................*/
+
+#c-container{
+    position:relative;
+    height: 100%;
+    margin-bottom: 364px;
+    
+}
+
+.contact-block {
+  width: 75%;
+  margin: 8% auto;
+
+}
+
+.contact-block .cfields {
+  display: block;
+  height: 50px; 
+  margin: 10px;
+  padding: 5px;
+  width: 95% !important;}
+
+.c-details {
+  float: left;
+  width: 50%;
+}
+
+.c-message {
+  float:right;
+  width: 50%;
+}
+
+.c-details textarea { 
+  margin: 10px;
+  width: 55%;
+  height: 10px;
+  padding: 5px;
+}
+
+.c-message textarea {
+  margin: 10px;
+  width: 98%;
+  height: 196px;
+  padding: 5px;
+}
+
+.message-button input[type=submit] {
+  width: 140px;
+  float: right;
+  border-radius: 5px;
+  height: 45px;
+  font-family: Verdana, Arial, Sans-Serif;
+  font-weight: 600;
+  border: 0;
+}
+
+
+/*..............................................SIGN UP PAGE..................................................*/
+
+
+.signup-main {
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 15%;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup-head {
+    text-align: center;
+}
+
+.signup-head div {
+    font-family: Verdana, Arial, Sans-Serif;
+    color: grey;
+    padding: 10px 30px;
+    font-size: 20px;
+    padding-top: 15px;
+    
+}
+.subscribe-a a {
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  border: 0;
+  padding: 15px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/*..............................................SIGN UP PAGE - Individual..................................................*/
+
+.signup-main-ind {
+    width: 58%;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    margin-left: 220px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 65%;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ind-title {
+    text-align: center;
+    color: grey;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: bold;
+    margin: 20px;
+}
+.signup-ind input[type=text] {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+}
+.signup-ind input[type=email] {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+}
+.signup-ind input[type=password] {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+}
+
+
+.subscribe-a button {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto; 
+    padding: 0px 35px; 
+    color: #222222;
+    height: 42px;
+    width: 100px;
+    border-radius: 15px;
+    border: 0;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 600;
+    margin: 15px 50px;
+    position: relative;
+    left: 70%;
+}
+
+hr.ind-style{
+  border-top: 0px ;
+  margin-top: 30px;
+}
+
+/*..............................................SIGN UP PAGE - Event..................................................*/
+
+.signup-main-evn {
+    width: 58%;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    margin-left: 230px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 60%;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*..............................................SIGN UP PAGE - Event..................................................*/
+
+
+.radio-class {
+    
+    margin-bottom: 20px;
+    color: grey;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+
+.radio-class span {
+    margin: 60px;
+}
+
+
+
+
+
+/* ....................................................Individual Login Page.......................................*/
+.tiles-main-block {
+    margin: 25px 35px;
+    width: 100%;
+}
+
+.tile-activity-block {
+    float: left;
+    margin: 10px;
+}
+
+.tile-activity {
+    height: 165px;
+    border: 1px solid lightgrey;
+    width: 253px;
+}
+
+.tile-activity-part {
+    height: 130px;
+    width: 253px;
+    float: left;
+    display: inline-block;
+}
+
+.color-blue {
+    background-color: #2572fe;
+}
+
+.color-green {
+    background-color: #339833;
+}
+
+.color-yellow {
+    background-color: #FFC600;
+}
+
+.color-grey {
+    background-color: #6b6a6a;
+}
+
+
+.color-red {
+    background-color: #EC0D3C;
+}
+.color-paint {
+    background-color: #00A2BB;
+}
+.color-dark {
+    background-color: #323940;
+}
+
+.color-light {
+    color: #FFFFFF;
+}
+
+.icon {
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+    margin: 30px 0px 0 10px;
+    float: left;
+}
+
+.tile-activity-count, .count, .count-text {
+    float: right;
+    margin: 16px 19px 0 0px;
+}
+
+.count-text {
+    color: white;
+}
+
+h3.count {
+    margin: 18px 10px 0 0px;
+    font-size: 35px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: white;
+}
+
+.tile-text {
+    float: right;
+    margin: 10px 10px 0 0;
+    color: grey;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+
+.all-tiles-block {
+    clear: both;
+    position: relative;
+    top: 40px;
+    padding-bottom: 42%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.tile {
+    margin: 12px;
+    height: 180px;
+    border: 1px solid grey;
+    width: 250px;
+    float: left;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.tile-header {
+    margin: 10px;
+    color: white;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+.tile-line {
+    border-bottom: 3px solid #0000001a;
+}
+
+.cards {
+    padding: 15px;
+    color: white;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 14px;
+}
+.card-title{
+      margin-bottom: 10px;
+}
+.dark{
+  color: darkgrey;
+}
+
+/*................................Events and Conferences Table Page..................*/
+
+
+
+.t1 {
+   border-collapse: collapse;
+   width: 100%
+
+  }
+ .t1 th{
+     border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    color:grey;
+
+  }
+
+.t1 td {
+     border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    color:grey;
+
+  }
+
+/*..............................................User Profile Settings..................................................*/
+
+.main-settings {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+    border-radius: 5px;
+    height: 57%;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tabs {  
+    margin-top: 20px;
+}
+
+.display-pic {
+    margin: 9px;
+    float: left;
+    
+}
+
+.display-pic img {
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.subscribe-usr label {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;  
+    height: 42px;
+    border: 0;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 500;
+    
+    border-radius: 5px;   
+    padding:7%;
+    width:20px;
+}
+
+.subscribe-usr input[type=file] {
+    display: none;
+}
+.user-details {
+    float: left;
+    width: 60%;
+    margin-left:109px;
+}
+.flname{
+    width: 31%;
+    display: inline;
+    margin-right: 0 !important;
+    height: 30px;
+    margin-left: 10px;
+}
+.user-details a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.subscribe-save input[type=submit] {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;  
+    height: 42px;
+    border: 0;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 550px;
+    border-radius: 5px;
+    width: 150px;
+    
+}
+input.r-details {
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    width: 65%;
+}
+
+
+
+  /*......................................media................................*/
+  @media only screen and (max-width: 1024px){
+  #header .navigation a{
+    display:block;
+    text-decoration: none;
+    margin-right: 6px;
+  } 
+  
+  #header  {
+  position: relative;
+  background: #2b2276;
+  width: 100%;
+  height: auto;
+}
+
+#header .brand_image{
+  
+    display: block;
+  vertical-align: middle;
+    position: inherit;
+  width : 100% auto;
+  height : 70px;
+  float: center;
+  display: block;
+  
+}
+
+#header .navigation {
+  
+  line-height: auto;
+    background-color: #2b2276;
+  position: inherit;
+  display: block;
+  width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+#header .navigation a{
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+} 
+  
+  
+}

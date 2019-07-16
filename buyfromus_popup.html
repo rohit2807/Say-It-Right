@@ -1,0 +1,178 @@
+﻿<html>
+
+<head>
+	
+	<title> Home Page </title>
+	
+	<link rel="stylesheet" href="styles/sayitright.css" media="all" />
+
+	<style>
+
+	.popup {
+		display: block;
+	}
+
+	.popup-content {
+		width:  40%;
+		padding: 20px;
+	}
+</style>
+
+</head>
+
+<body>
+	
+	<div id="container">
+		
+		<div id="header">	
+			<nav class="navigation">				
+				<img src="imgsay/logo.png">
+				<a href="index.html" >HOME</a>
+				<a href="aboutus.html">ABOUT US</a>
+				<a href="blog.html">BLOG</a>
+				<a href="buyfromus.html" class="active">BUY FROM US</a>
+				<a href="contact.html">CONTACT</a>
+				<a href="signup.html">SIGN UP</a>
+				<a href="login.html">LOGIN</a>
+			</nav>
+		</div>
+		
+
+		<div id="bfu-mybody">	
+			<div class="nav">	
+				Home <span>&rarr;</span> Buy From Us
+			</div>
+			<div class="title">
+				BUY FROM US
+			</div>
+
+			<div class="bfu-bodyhead bfu-bottom">
+				<div class="front-text">Buy From Us</div>
+				<div class="back-text">Buy From Us</div>
+				
+				<div class="product">
+					<img src="imgsay/franela1.jpg"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+				<div class="product">
+					<img src="imgsay/taza1.png"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+				<div class="product">
+					<img src="imgsay/franela2.jpg"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+				<div class="product">
+					<img src="imgsay/taza2.png"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+				<div class="product">
+					<img src="imgsay/franela3.jpg"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+				<div class="product">
+					<img src="imgsay/taza3.png"></img>
+					<div class="p-price">
+						$24.99
+					</div>
+					<div class="p-description">
+						Some quick example to build on the card title and make up the bulk of the card's content 
+					</div>
+					<button class="subscribe s-change"  onclick="rdrct_page()">ADD TO CART</button>
+				</div>
+
+			</div>
+
+			<div id="i-popup" class="popup">
+				<div class="popup-body">
+					<span class="close" onclick="prev_page()">&times;</span>
+					<p>Add to Cart</p>
+					<hr class="ind-style">
+					<img class="popup-image" src="imgsay/franela2.jpg" />
+					<div class="popup-data">
+						<div class="product-quantity">
+							<span>Product Quantity</span>
+							<input type="number"></input>
+						</div>
+							Note: Some quick example text to build on the card title and make up the bulk of the card's content!	
+					</div>
+					<hr class="ind-style">
+					<div class="button-bfupop">
+						<button class="button-bfupop add-bfu">ADD TO CART</button> 
+						<button class="button-bfupop close-bfu" onclick="prev_page()">CLOSE</button>
+					</div>
+				</div>
+
+
+			</div>
+
+
+			<div class="subscribe buyfrmus-subscrb">				
+				<table>					
+					<tr>
+						<td class="td-class">	
+							<span><h2 class="sub-left-span">View Shopping Cart</h2></span>							
+							<span class="sub-left-span2">You can see the products that you added to your cart</span>
+						</td>
+						<td>
+							<div class="sub-right-div">		
+								<button class="bfu-button">SUBMIT</button>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+
+
+			<div id="footer">
+				<hr width="75%">
+				<span>Copyright ©2019 All rights reserved | This web is made with ♡ by <span>DiazApps</span></span>
+			</div>
+
+		</div>
+
+		<script>
+			function prev_page() {
+				location.replace("buyfromus.html")
+			}
+		</script>	
+
+	</body>
+	
+	</html>
